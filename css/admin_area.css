@@ -1,0 +1,43 @@
+.nav a{
+    
+    padding-right: 0px;
+    
+    
+}
+.nav-right a:hover ,.nav-right .active{
+    border-right: 0px;
+    
+    
+    
+}
+.nav-right > ul > li {
+    position: relative;
+}
+.nav-right > ul > li:hover{
+    cursor: pointer;
+}
+
+ul.submenu{
+    position: absolute;
+    background-color: #A21815;
+    border-top: 5px solid #ba2229;
+    padding-right: 36px;
+    margin-right: 10px;
+    margin-left: -8px;
+    text-align: left;
+    opacity: 0;
+}
+
+ul.submenu li{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.nav-right li:hover .submenu{     
+    opacity: 1;
+}
+   
+ul.submenu li:hover{
+    text-decoration: underline;
+}
+   

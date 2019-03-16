@@ -1,0 +1,39 @@
+.signup{
+    background-color: #EFEFEF;
+    height: 500px;
+    padding: 80px;
+    text-align: center;
+    
+}
+
+.signup label{
+    margin-right: 80px;
+}
+.signup table{
+    border-spacing: 1em;
+    border-collapse: separate;
+    
+    
+}
+
+#btn{
+    width: 148px;
+    height: 30px;
+    background-color: #A21815;
+    color: white;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color: #BA2229;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+
+.error{
+    color: red;
+}
+.success{
+    color: green;
+}

@@ -1,0 +1,24 @@
+.display{
+    padding: 0px;
+    width: 960px;
+    float: none;
+    height:850px;
+}
+.sidenav{
+    float: none;
+    width: 960px;
+    height: 36px;
+    border-right: none;
+}
+
+.sidenav ul li {
+    border-bottom: none;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+.display table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}

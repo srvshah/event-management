@@ -1,0 +1,75 @@
+.sidenav{
+    height: 800px;
+    background-color: #EFEFEF;
+    border-right: 3px solid #A21815;
+    border-top: 3px solid #A21815;
+    width: 200px;
+    float: left;
+}
+
+.display{
+    width: 597px;
+    height: 800px;
+    background-color: #EFEFEF;
+    float: right;
+    border-top: 3px solid #A21815;
+    padding: 0px 80px;
+}
+
+.display table{
+    border-spacing: 1em;
+    border-collapse: separate;
+}
+.sidenav ul{
+    
+    list-style: none;
+    
+}
+
+.sidenav ul li{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 0px;
+    padding-left: 50px;
+    
+}
+
+.sidenav ul li {
+    border-bottom: 1px solid #A21815; 
+    
+}
+
+
+.sidenav a{
+    text-decoration: none;
+    padding: 2px 10px;
+    color: black;
+    font-weight: bold;
+}
+.sidenav a:hover,.sidenav li:hover,.sidenav .active{
+    background-color: #A21815;
+    color: white;
+}
+
+.second-nav ul {
+    padding-top: 5px;
+    margin-bottom: 0px;
+}
+
+#btn{
+    width: 148px;
+    height: 30px;
+    background-color: #A21815;
+    color: white;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color: #BA2229;
+    color: white;
+}
+.error{
+    color: red;
+}
+.success{
+    color: green;
+}
